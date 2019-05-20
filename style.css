@@ -1,0 +1,96 @@
+TextField
+{
+	-fx-border-color: black;
+	-fx-padding: 5px;
+	-fx-font-size: 30px;
+	-fx-min-width: 200px;
+	-fx-max-width: 200px;
+	-fx-min-heigth: 50px;
+	-fx-max-heigth: 50px;
+	-fx-opacity: 1;
+	-fx-background-color: lightgray;
+}
+Button
+{
+	-fx-padding: 5px;
+    -fx-border-insets: 5px;
+    -fx-background-insets: 5px;
+	-fx-min-width: 50px;
+	-fx-max-width: 50px;
+	-fx-min-heigth: 30px;
+	-fx-max-heigth: 30px;
+	-fx-background-color: #2F2F2F;
+	-fx-border-width: 2px;
+	-fx-border-color: gray #1E1E1E #1E1E1E gray;
+	-fx-text-fill: white;
+	-fx-font-weight: bold;
+}
+Button:armed
+{
+	-fx-border-color: #1E1E1E gray gray #1E1E1E;
+	-fx-background-color: #1E1E1E;
+}
+#clearBtn
+{
+	-fx-background-color: red;
+	-fx-border-color: #FF5151 darkred darkred #FF5151;
+}
+#clearBtn:armed
+{
+	-fx-background-color: darkred;
+	-fx-border-color: darkred #FF5151 #FF5151 darkred;
+}
+#eqBtn
+{
+	-fx-background-color: green;
+	-fx-border-color: lightgreen darkgreen darkgreen lightgreen;
+	-fx-min-width: 200px;
+	-fx-max-width: 200px;
+}
+#eqBtn:armed
+{
+	-fx-background-color: darkgreen;
+	-fx-border-color: darkgreen lightgreen lightgreen darkgreen;
+	-fx-min-width: 200px;
+	-fx-max-width: 200px;
+}
+#pl_sign
+{
+	-fx-background-color: #1924FF;
+	-fx-border-color: lightblue darkblue darkblue lightblue;
+}
+#pl_sign:armed
+{
+	-fx-background-color: darkblue;
+	-fx-border-color: darkblue lightblue lightblue darkblue;
+}
+#ms_sign
+{
+	-fx-background-color: #1924FF;
+	-fx-border-color: lightblue darkblue darkblue lightblue;
+}
+#ms_sign:armed
+{
+	-fx-background-color: darkblue;
+	-fx-border-color: darkblue lightblue lightblue darkblue;
+}
+#mtp_sign
+{
+	-fx-background-color: #1924FF;
+	-fx-border-color: lightblue darkblue darkblue lightblue;
+}
+#mtp_sign:armed
+{
+	-fx-background-color: darkblue;
+	-fx-border-color: darkblue lightblue lightblue darkblue;
+}
+#div_sign
+{
+	-fx-background-color: #1924FF;
+	-fx-border-color: lightblue darkblue darkblue lightblue;
+}
+#div_sign:armed
+{
+	-fx-background-color: darkblue;
+	-fx-border-color: darkblue lightblue lightblue darkblue;
+}
